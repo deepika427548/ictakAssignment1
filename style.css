@@ -1,0 +1,165 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+    background: black;
+    color:white
+
+}
+img{
+    width:90px;
+    height:90px;
+}
+nav{
+    display:flex;
+    margin:20px 50px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:40px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:19px;
+    position:relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background:red;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+}
+nav ul li a:hover::after{
+    width:100%;
+    transition: 0.5s;
+
+}
+span{
+    color:red;
+}
+.container{
+    margin:10% 20%;
+    display:flex;
+    justify-content: space-between;
+}
+.container img{
+    height:300px;
+    width:300px
+}
+#about{
+    margin-left:5%;
+width:60%;
+
+}
+#about hr{
+    width:150px;
+    height:3px;
+    background-color: red;
+border:none;
+}
+
+#about p{
+    margin: 10px;;
+    line-height: 20px;
+    text-transform:capitalize;
+}
+  .tab-items #skill{
+    width:35px;
+    height:3px;
+    background-color: rgb(226, 43, 43);
+    border:none;
+  }
+  .tab-items #edu{
+    width:65px;
+    height:3px;
+    background-color: rgb(226, 43, 43);
+    border:none;
+  }
+  .tab-items ul li{
+    list-style: none;
+  }
+  .project-container h1{
+    margin:50px;
+  }
+  .project-container hr{
+    width:120px;
+    height:3px;
+    background-color: red;
+    border:none;
+  }
+   .pro{
+    display:flex;
+    margin:8% 100px;
+   }
+   .pro img{
+    width:40%;
+    height:100%;
+    border-radius: 5px;
+   }
+   #contact
+   {
+    width:80%;
+    margin: 50px auto;
+   }
+   .contact-box{
+    display:flex;
+   }
+   .contact-left{
+    flex-basis:60%;
+    padding:40px 60px;
+   }
+   .contact-right{
+    flex-basis:40%;
+    padding:40px;
+    background:rgb(219, 30, 30);
+    color:black;
+   }
+   #contact h1{
+    margin-bottom:10px;
+   }
+   #contact p{
+    margin-bottom:40px;
+   }
+   .input-group{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+ }
+ .contact-left h3{
+    text-align: center;
+    color:rgb(219, 30, 30);
+    font-weight:600;
+ }
+
+textarea{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+button{
+    background:rgb(224, 24, 24) ;
+    width:100px;
+    border:none;
+    outline:none;
+    height:35px;
+    border-radius: 30px;
+    margin-top:20px;
+    }
+    tr td:first-child{
+        padding-right:20px;
+    }
+    tr td{
+        padding-top:20px;
+    }
